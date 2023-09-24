@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['diabetes', 'sehat']
+
+roboflow:
+  workspace: burhan-nasir-rauf-osrki
+  project: kuku-diabetes
+  version: 6
+  license: Public Domain
+  url: https://universe.roboflow.com/burhan-nasir-rauf-osrki/kuku-diabetes/dataset/6
