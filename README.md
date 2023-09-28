@@ -31,6 +31,17 @@ python train.py --cfg /cfg/training/yolov7x.yaml --weights /weights/yolov7x.pt -
 python train.py --cfg /cfg/training/yolov7-tiny.yaml --weights /weights/yolov7-tiny.pt --data /datasets/data.yaml --batch-size 32 --epochs [nilai epoch] --adam --name '[nama folder]'
 ```
 
+## Deteksi
+**Camera Laptop**
+```shell
+python detect.py --weights '[lokasi weights]' --source 0 --img 640
+```
+
+**File gambar**
+```shell
+python detect.py --source '[lokasi file]' --weights '[lokasi weights]' --img 640
+```
+
 ## Export
 **Pytorch to ONNX with NMS (and inference)** 
 ```shell
