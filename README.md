@@ -1,7 +1,7 @@
 ## Performance 
-| [**YOLOv7**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) |
-| [**YOLOv7-x**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x.pt) |
-| [**YOLOv7-tiny**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt) |
+| [**YOLOv7**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt)
+| [**YOLOv7-x**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x.pt)
+| [**YOLOv7-tiny**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt)
 
 ## Training
 
