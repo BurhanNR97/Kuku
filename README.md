@@ -2,8 +2,8 @@
 | **Model** | **Image Size** | **Epoch** | **Batch Size** | **Optimizer** |
 | :-- | :-: | :-: | :-: | :-: |
 | [**YOLOv7**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) | 640 | 100 <br>150 <br>200 | 16 | Adam |
-| [**YOLOv7-X**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x.pt) | 640 | 8 | Adam |
-| [**YOLOv7-tiny**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt) | 640 | 32 | Adam |
+| [**YOLOv7-X**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x.pt) | 640 | 100 <br>150 <br>200 | 8 | Adam |
+| [**YOLOv7-tiny**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt) | 640 | 100 <br>150 <br>200 | 32 | Adam |
 
 ## Training
 
