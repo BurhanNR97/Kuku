@@ -1,17 +1,22 @@
 ## Performance 
-<p>[**YOLOv7**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt)</p>
-<p>[**YOLOv7-x**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x.pt)</p>
-<p>[**YOLOv7-tiny**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt)</p>
+<p> [**YOLOv7**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) </p>
+<p> [**YOLOv7-x**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x.pt) </p>
+<p> [**YOLOv7-tiny**](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-tiny.pt) </p>
 
 ## Training
+
 **YOLOv7 epoch (100, 150 200)** 
+
 <p>nama foler ('v100', 'v150', 'v200')</p>
+
 ```shell
 python train.py --cfg /cfg/training/yolov7.yaml --weights /weights/yolov7.pt --data /datasets/data.yaml --batch-size 8 --epochs [nilai epoch] --adam --name '[nama folder]'
 ```
 
 **YOLOv7 epoch (100, 150 200)** 
+
 <p>nama foler ('x100', 'x150', 'x200')</p>
+
 ```shell
 python train.py --cfg /cfg/training/yolov7.yaml --weights /weights/yolov7x.pt --data /datasets/data.yaml --batch-size 16 --epochs [nilai epoch] --adam --name '[nama folder]'
 ```
