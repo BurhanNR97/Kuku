@@ -9,7 +9,7 @@
 
 **YOLOv7 epoch (100, 150 200)** 
 
-<p>nama foler ('v100', 'v150', 'v200')</p>
+<p>nama folder ('v100', 'v150', 'v200')</p>
 
 ```shell
 python train.py --cfg /cfg/training/yolov7.yaml --weights /weights/yolov7.pt --data /datasets/data.yaml --batch-size 8 --epochs [nilai epoch] --adam --name '[nama folder]'
@@ -17,7 +17,7 @@ python train.py --cfg /cfg/training/yolov7.yaml --weights /weights/yolov7.pt --d
 
 **YOLOv7x epoch (100, 150 200)** 
 
-<p>nama foler ('x100', 'x150', 'x200')</p>
+<p>nama folder ('x100', 'x150', 'x200')</p>
 
 ```shell
 python train.py --cfg /cfg/training/yolov7x.yaml --weights /weights/yolov7x.pt --data /datasets/data.yaml --batch-size 16 --epochs [nilai epoch] --adam --name '[nama folder]'
@@ -25,7 +25,7 @@ python train.py --cfg /cfg/training/yolov7x.yaml --weights /weights/yolov7x.pt -
 
 **YOLOv7-tiny epoch (100, 150 200)** 
 
-<p>nama foler ('x100', 'x150', 'x200')</p>
+<p>nama folder ('t100', 't150', 't200')</p>
 
 ```shell
 python train.py --cfg /cfg/training/yolov7-tiny.yaml --weights /weights/yolov7-tiny.pt --data /datasets/data.yaml --batch-size 32 --epochs [nilai epoch] --adam --name '[nama folder]'
